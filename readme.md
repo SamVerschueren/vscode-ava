@@ -2,7 +2,7 @@
 
 > Snippets for [AVA](https://ava.li/)
 
-<img src="https://github.com/samverschueren/vscode-ava/raw/master/media/screenshot.gif" width="500">
+![](https://github.com/samverschueren/vscode-ava/raw/master/media/screenshot.gif)
 
 
 ## Install
