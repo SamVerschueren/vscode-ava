@@ -1,0 +1,72 @@
+{
+	"t.pass()": {
+		"prefix": "t.pass",
+		"body": "t.pass(${1:'${2:message}'});",
+		"description": "Passing assertion"
+	},
+	"t.fail()": {
+		"prefix": "t.fail",
+		"body": "t.fail(${1:'${2:message}'});",
+		"description": "Failing assertion"
+	},
+	"t.ok()": {
+		"prefix": "t.ok",
+		"body": "t.ok(${1:value}${2:, '${3:message}'});",
+		"description": "Assert that `value` is truthy"
+	},
+	"t.notOk()": {
+		"prefix": "t.notOk",
+		"body": "t.notOk(${1:value}${2:, '${3:message}'});",
+		"description": "Assert that `value` is falsy"
+	},
+	"t.true()": {
+		"prefix": "t.true",
+		"body": "t.true(${1:value}${2:, '${3:message}'});",
+		"description": "Assert that `value` is `true`"
+	},
+	"t.false()": {
+		"prefix": "t.false",
+		"body": "t.false(${1:value}${2:, '${3:message}'});",
+		"description": "Assert that `value` is `false`"
+	},
+	"t.is()": {
+		"prefix": "t.is",
+		"body": "t.is(${1:value}, ${2:expected}${3:, '${4:message}'});",
+		"description": "Assert that `value` is equal to `expected`"
+	},
+	"t.not()": {
+		"prefix": "t.not",
+		"body": "t.not(${1:value}, ${2:expected}${3:, '${4:message}'});",
+		"description": "Assert that `value` is not equal to `expected`"
+	},
+	"t.same()": {
+		"prefix": "t.same",
+		"body": "t.same(${1:value}, ${2:expected}${3:, '${4:message}'});",
+		"description": "Assert that `value` is is deep equal to `expected`"
+	},
+	"t.notSame()": {
+		"prefix": "t.notSame",
+		"body": "t.notSame(${1:value}, ${2:expected}${3:, '${4:message}'});",
+		"description": "Assert that `value` is not deep equal to `expected`"
+	},
+	"t.throws()": {
+		"prefix": "t.throws",
+		"body": "t.throws(${1:function|promise}${2:, ${3:expected}${4:, '${5:message}'}});",
+		"description": "Assert that `function` throws an error or `promise` rejects"
+	},
+	"t.notThrows()": {
+		"prefix": "t.notThrows",
+		"body": "t.notThrows(${1:function|promise}${2:, '${3:message}'});",
+		"description": "Assert that `function` doesn't throw an error or `promise` rejects"
+	},
+	"t.regex()": {
+		"prefix": "t.regex",
+		"body": "t.regex(${1:contents}, ${2:regex}${3:, '${4:message}'});",
+		"description": "Assert that `contents` matches `regex`"
+	},
+	"t.ifError()": {
+		"prefix": "t.ifError",
+		"body": "t.ifError(${1:error}${2:, '${3:message}'});",
+		"description": "Assert that `error` is falsy"
+	}
+}
