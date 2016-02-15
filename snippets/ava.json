@@ -1,0 +1,91 @@
+{
+	"ava": {
+		"prefix": "ava",
+		"body": [
+			"import test from 'ava';",
+			"import $1 from '$2';",
+			"",
+			"test('${3:title}', t => {",
+			"\tt.is($1(), '$4');",
+			"});"
+		],
+		"description": "AVA"
+	},
+	"import-ava": {
+		"prefix": "import-ava",
+		"body": "import test from 'ava';\n",
+		"description": "Import AVA"
+	},
+	"test": {
+		"prefix": "test",
+		"body": [
+			"test('${1:title}', t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Test"
+	},
+	"test-async": {
+		"prefix": "test-async",
+		"body": [
+			"test('${1:title}', async t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Test - Async"
+	},
+	"test-serial": {
+		"prefix": "test-serial",
+		"body": [
+			"test.serial('${1:title}', t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Test - Serial"
+	},
+	"test-cb": {
+		"prefix": "test-cb",
+		"body": [
+			"test.cb('${1:title}', t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Test - Cb"
+	},
+	"before-hook": {
+		"prefix": "before-hook",
+		"body": [
+			"test.before(t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Before hook"
+	},
+	"after-hook": {
+		"prefix": "after-hook",
+		"body": [
+			"test.after(t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "After hook"
+	},
+	"before-each-hook": {
+		"prefix": "before-each-hook",
+		"body": [
+			"test.beforeEach(t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Before each hook"
+	},
+	"after-each-hook": {
+		"prefix": "after-each-hook",
+		"body": [
+			"test.afterEach(t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "After each hook"
+	}
+}

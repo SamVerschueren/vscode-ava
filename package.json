@@ -1,0 +1,29 @@
+{
+  "name": "ava",
+  "displayName": "AVA",
+  "icon": "media/icon.png",
+  "version": "0.0.0",
+  "description": "Snippets for AVA",
+  "license": "MIT",
+  "repository": "SamVerschueren/vscode-ava",
+  "publisher": "samverschueren",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "vscode": "^0.10.6"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/ava.json"
+      }
+    ]
+  }
+}
