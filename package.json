@@ -23,6 +23,10 @@
       {
         "language": "javascript",
         "path": "./snippets/ava.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/assertions.json"
       }
     ]
   }
