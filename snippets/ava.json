@@ -52,6 +52,29 @@
 		],
 		"description": "Test - Cb"
 	},
+	"test-only": {
+		"prefix": "test-only",
+		"body": [
+			"test.only('${1:title}', t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Test - Only"
+	},
+	"test-skip": {
+		"prefix": "test-skip",
+		"body": [
+			"test.skip('${1:title}', t => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Test - Skip"
+	},
+	"test-todo": {
+		"prefix": "test-todo",
+		"body": "test.todo('${1:title}');",
+		"description": "Test - Todo"
+	},
 	"before-hook": {
 		"prefix": "before-hook",
 		"body": [
