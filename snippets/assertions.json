@@ -9,14 +9,14 @@
 		"body": "t.fail(${1:'${2:message}'});",
 		"description": "Failing assertion"
 	},
-	"t.ok()": {
-		"prefix": "t.ok",
-		"body": "t.ok(${1:value}${2:, '${3:message}'});",
+	"t.truthy()": {
+		"prefix": "t.truthy",
+		"body": "t.truthy(${1:value}${2:, '${3:message}'});",
 		"description": "Assert that `value` is truthy"
 	},
-	"t.notOk()": {
-		"prefix": "t.notOk",
-		"body": "t.notOk(${1:value}${2:, '${3:message}'});",
+	"t.falsy()": {
+		"prefix": "t.falsy",
+		"body": "t.falsy(${1:value}${2:, '${3:message}'});",
 		"description": "Assert that `value` is falsy"
 	},
 	"t.true()": {
@@ -39,14 +39,14 @@
 		"body": "t.not(${1:value}, ${2:expected}${3:, '${4:message}'});",
 		"description": "Assert that `value` is not equal to `expected`"
 	},
-	"t.same()": {
-		"prefix": "t.same",
-		"body": "t.same(${1:value}, ${2:expected}${3:, '${4:message}'});",
-		"description": "Assert that `value` is is deep equal to `expected`"
+	"t.deepEqual()": {
+		"prefix": "t.deepEqual",
+		"body": "t.deepEqual(${1:value}, ${2:expected}${3:, '${4:message}'});",
+		"description": "Assert that `value` is deep equal to `expected`"
 	},
-	"t.notSame()": {
-		"prefix": "t.notSame",
-		"body": "t.notSame(${1:value}, ${2:expected}${3:, '${4:message}'});",
+	"t.notDeepEqual()": {
+		"prefix": "t.notDeepEqual",
+		"body": "t.notDeepEqual(${1:value}, ${2:expected}${3:, '${4:message}'});",
 		"description": "Assert that `value` is not deep equal to `expected`"
 	},
 	"t.throws()": {
