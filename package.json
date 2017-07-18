@@ -1,33 +1,69 @@
 {
-  "name": "ava",
-  "displayName": "AVA",
-  "icon": "media/icon.png",
-  "version": "0.4.0",
-  "description": "Snippets for AVA",
-  "license": "MIT",
-  "repository": "SamVerschueren/vscode-ava",
-  "publisher": "samverschueren",
-  "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com",
-    "url": "github.com/SamVerschueren"
-  },
-  "engines": {
-    "vscode": "^0.10.6"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/ava.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/assertions.json"
-      }
-    ]
-  }
+	"name": "ava",
+	"displayName": "AVA",
+	"icon": "media/icon.png",
+	"version": "0.4.0",
+	"description": "Snippets for AVA",
+	"license": "MIT",
+	"repository": "SamVerschueren/vscode-ava",
+	"publisher": "samverschueren",
+	"author": {
+		"name": "Sam Verschueren",
+		"email": "sam.verschueren@gmail.com",
+		"url": "github.com/SamVerschueren"
+	},
+	"contributors": [
+		{
+			"name": "Giorgio Tropiano",
+			"email": "giorgiotropiano@gmail.com",
+			"url": "github.com/everdrone"
+		}
+	],
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/ava.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/assertions.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/ava.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/assertions.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/ava.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/assertions.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/ava.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/assertions.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "fd48c037-df6e-41e6-9764-8e9cf9c5ca11",
+		"publisherId": "459b7700-3b3b-4f51-b6b6-a5211342c87d",
+		"publisherDisplayName": "Sam Verschueren"
+	}
 }
