@@ -80,7 +80,7 @@
 		"body": [
 			"test.failing('${1:title}', t => {",
 			"\t$2",
-			"}"
+			"});"
 		],
 		"description": "Test - Failing"
 	},

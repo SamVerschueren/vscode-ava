@@ -20,14 +20,38 @@
   ],
   "contributes": {
     "snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/ava.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/assertions.json"
-      }
+    	{
+    		"language": "javascript",
+    		"path": "./snippets/ava.json"
+    	},
+    	{
+    		"language": "javascript",
+    		"path": "./snippets/assertions.json"
+    	},
+    	{
+    		"language": "typescript",
+    		"path": "./snippets/ava.json"
+    	},
+    	{
+    		"language": "typescript",
+    		"path": "./snippets/assertions.json"
+    	},
+    	{
+    		"language": "javascriptreact",
+    		"path": "./snippets/ava.json"
+    	},
+    	{
+    		"language": "javascriptreact",
+    		"path": "./snippets/assertions.json"
+    	},
+    	{
+    		"language": "typescriptreact",
+    		"path": "./snippets/ava.json"
+    	},
+    	{
+    		"language": "typescriptreact",
+    		"path": "./snippets/assertions.json"
+    	}
     ]
   }
 }
