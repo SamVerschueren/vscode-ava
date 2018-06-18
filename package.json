@@ -5,13 +5,19 @@
   "version": "0.4.0",
   "description": "Snippets for AVA",
   "license": "MIT",
-  "repository": "SamVerschueren/vscode-ava",
-  "publisher": "samverschueren",
-  "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com",
-    "url": "github.com/SamVerschueren"
-  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/SamVerschueren/vscode-ava"
+	},
+	"bugs": {
+		"url": "https://github.com/SamVerschueren/vscode-ava/issues"
+	},
+	"author": {
+		"name": "Sam Verschueren",
+		"email": "sam.verschueren@gmail.com",
+		"url": "github.com/SamVerschueren"
+	},
+	"publisher": "samverschueren",
   "engines": {
     "vscode": "^0.10.6"
   },
