@@ -50,7 +50,7 @@
 			"\t$2",
 			"});"
 		],
-		"description": "Test - Cb"
+		"description": "Test - Callback"
 	},
 	"test-only": {
 		"prefix": "test-only",
