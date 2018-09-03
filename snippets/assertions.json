@@ -51,13 +51,23 @@
 	},
 	"t.throws()": {
 		"prefix": "t.throws",
-		"body": "t.throws(${1:function|promise}${2:, ${3:expected}${4:, '${5:message}'}});",
-		"description": "Assert that `function` throws an error or `promise` rejects"
+		"body": "t.throws(${1:function}${2:, ${3:expected}${4:, '${5:message}'}});",
+		"description": "Assert that `function` throws an error"
 	},
 	"t.notThrows()": {
 		"prefix": "t.notThrows",
-		"body": "t.notThrows(${1:function|promise}${2:, '${3:message}'});",
-		"description": "Assert that `function` doesn't throw an error or `promise` rejects"
+		"body": "t.notThrows(${1:function}${2:, '${3:message}'});",
+		"description": "Assert that `function` doesn't throw an error"
+	},
+	"t.throwsAsync()": {
+		"prefix": "t.throwsAsync",
+		"body": "t.throwsAsync(${1:promise|function}${2:, ${3:expected}${4:, '${5:message}'}});",
+		"description": "Assert that `promise` rejects or `function` returns a promise that rejects"
+	},
+	"t.notThrowsAsync()": {
+		"prefix": "t.notThrowsAsync",
+		"body": "t.notThrowsAsync(${1:promise|function}${2:, '${3:message}'});",
+		"description": "Assert that `promise` doesn't reject or `function` returns a promise that doesn't reject"
 	},
 	"t.regex()": {
 		"prefix": "t.regex",
@@ -69,9 +79,9 @@
 		"body": "t.notRegex(${1:contents}, ${2:regex}${3:, '${4:message}'});",
 		"description": "Assert that contents does not match regex"
 	},
-	"t.ifError()": {
-		"prefix": "t.ifError",
-		"body": "t.ifError(${1:error}${2:, '${3:message}'});",
-		"description": "Assert that `error` is falsy"
+	"t.snapshot()": {
+		"prefix": "t.snapshot",
+		"body": "t.snapshot(${1:expected}${2:, '${3:message}'});",
+		"description": "Assert that `expected` is deeply equal to a previously recorded snapshot, or if necessary, record a new snapshot"
 	}
 }
